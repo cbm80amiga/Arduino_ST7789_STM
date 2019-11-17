@@ -7,7 +7,7 @@ Significantly optimized for STM32 boards. Supports 36MHz SPI and DMA channel
 
 ## Configuration
 
-Use "define COMPATIBILITY_MODE" - then the library doesn't use DMA
+Use "#define COMPATIBILITY_MODE" - then the library doesn't use DMA
 
 Use "#define CS_ALWAYS_LOW" for LCD boards where CS pin is internally connected to the ground, it gives little better performance
 
@@ -27,7 +27,7 @@ Use "#define CS_ALWAYS_LOW" for LCD boards where CS pin is internally connected 
 |LCD pin|LCD pin name|Arduino|
 |--|--|--|
  |#01| GND| GND|
- |#02| VCC |VCC (3.3V only!)|
+ |#02| VCC |3.3V|
  |#03| SCL |PA5|
  |#04| SDA|PA7|
  |#05| RES|PA0 or any digital|
