@@ -20,7 +20,7 @@ Use "#define CS_ALWAYS_LOW" for LCD boards where CS pin is internally connected 
 - partialDisplay() and setPartArea() - limiting display area for power saving
 - setScrollArea() and setScroll() - smooth vertical scrolling
 - fast drawImage() from RAM
-- fast drawImage() from flash (PROGMEM)
+- fast drawImageF() from flash (PROGMEM)
 
 ## Connections:
 
