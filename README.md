@@ -5,6 +5,8 @@ YouTube video (AVR Arduino): https://youtu.be/GciLKcWQZK4
 
 Significantly optimized for STM32 boards. Supports 36MHz SPI and DMA channel
 
+Developed and tested using Roger's stm32duino
+
 ## Configuration
 
 Use "#define COMPATIBILITY_MODE" - then the library doesn't use DMA
